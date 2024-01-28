@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --darkpink:#dd127b;
+
+}
+.darkpink{
+    background-color: var(--darkpink);
+}
+.text-darkpink{
+    color:var(--darkpink)
+}
+a{
+    text-decoration: none;
+
+}
+/* header section start */
+.navbar-brand img{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+    transform: scale(1.05);
+    transition: 0.2 linear;
+}
+/* header section end */
